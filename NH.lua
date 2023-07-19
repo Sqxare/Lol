@@ -1229,7 +1229,7 @@ print(Time)
     Range = {16, 250},
     Increment = 10,
     Suffix = "Walkspeed",
-    CurrentValue = 10,
+    CurrentValue = 16,
     Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(v)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
