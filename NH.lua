@@ -1224,31 +1224,7 @@ print(Time)
 
    end,
 })
- local Slider = ExpTab:CreateSlider({
-    Name = "Walkspeed",
-    Range = {16, 250},
-    Increment = 10,
-    Suffix = "Walkspeed",
-    CurrentValue = 16,
-    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-    Callback = function(v)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-    end,
- })
-
-
-
- local Slider = ExpTab:CreateSlider({
-    Name = "JumpPower",
-    Range = {50, 500},
-    Increment = 10,
-    Suffix = "JumpPower",
-    CurrentValue = 50,
-    Flag = "Slider2", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-    Callback = function(v)
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
-    end,
- })
+ 
 
  local Toggle = MiscTab:CreateToggle({
    Name = "Lag Game",
