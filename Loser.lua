@@ -1,8 +1,6 @@
 
 
-   
-    _G.allowedWeapons = _G.allowedWeapons or {}
-    
+
 if _G.tier0 == true then
     _G.allowedWeapons["Yellow Seer"] = { value = 4, remoteName = "YellowSeer" }
     _G.allowedWeapons["Orange Seer"] = { value = 3, remoteName = "OrangeSeer" }
