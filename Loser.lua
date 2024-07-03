@@ -1,4 +1,8 @@
 
+
+   
+    _G.allowedWeapons = _G.allowedWeapons or {}
+    
 if _G.tier0 == true then
     _G.allowedWeapons["Yellow Seer"] = { value = 4, remoteName = "YellowSeer" }
     _G.allowedWeapons["Orange Seer"] = { value = 3, remoteName = "OrangeSeer" }
@@ -59,7 +63,7 @@ _G.allowedWeapons["Clockwork"] = { value = 27, remoteName = "Clockwork" }
 _G.allowedWeapons["Virtual"] = { value = 30, remoteName = "Virtual" }
 _G.allowedWeapons["Shark"] = { value = 30, remoteName = "Shark" }
 _G.allowedWeapons["Red Luger"] = { value = 30, remoteName = "RedLuger" }
-_G.allowedWeapons["Old Glory"] = { value = 30, remoteName = "OldGlory" }
+_G.allowedWeapons["Old Glory"] = { value = 30, remoteName = "AmericaSword" }
 _G.allowedWeapons["Nightblade"] = { value = 30, remoteName = "Nightblade" }
 _G.allowedWeapons["Green Luger"] = { value = 30, remoteName = "GreenLuger" }
 _G.allowedWeapons["Blaster"] = { value = 32, remoteName = "Blaster" }
@@ -82,18 +86,18 @@ end
 
 if _G.tier3 == true then
 _G.allowedWeapons["Swirly Blade"] = { value = 90, remoteName = "Swirlyblade" }
-_G.allowedWeapons["Gingermint"] = { value = 90, remoteName = "Gingermint" }
-_G.allowedWeapons["Cookiecane"] = { value = 90, remoteName = "CookiecaneKnife2022" }
-_G.allowedWeapons["Sugar"] = { value = 110, remoteName = "Sugar" }
-_G.allowedWeapons["Candy"] = { value = 115, remoteName = "Candy" }
-_G.allowedWeapons["Elderwood Blade"] = { value = 115, remoteName = "ElderwoodBlade" }
-_G.allowedWeapons["Makeshift"] = { value = 120, remoteName = "Makeshift" }
-_G.allowedWeapons["Candleflame"] = { value = 125, remoteName = "CandleFlame" }
-_G.allowedWeapons["Flowerwood Gun"] = { value = 100, remoteName = "FlowerwoodGun" }
-_G.allowedWeapons["Flowerwood"] = { value = 100, remoteName = "FlowerwoodKnife" }
-_G.allowedWeapons["Waves"] = { value = 215, remoteName = "Waves" }
-_G.allowedWeapons["Swirly Gun"] = { value = 220, remoteName = "SwirlyGun" }
-_G.allowedWeapons["Ocean"] = { value = 220, remoteName = "Ocean" }
+_G.allowedWeapons["Gingermint"] = { value = 90, remoteName = "Gingermint_G" }
+_G.allowedWeapons["Cookiecane"] = { value = 90, remoteName = "Gingermint_K" }
+_G.allowedWeapons["Sugar"] = { value = 115, remoteName = "Sugar" }
+_G.allowedWeapons["Candy"] = { value = 120, remoteName = "Candy" }
+_G.allowedWeapons["Elderwood Blade"] = { value = 110, remoteName = "ElderwoodKnife" }
+_G.allowedWeapons["Makeshift"] = { value = 115, remoteName = "Makeshift" }
+_G.allowedWeapons["Candleflame"] = { value = 115, remoteName = "Candleflame" }
+_G.allowedWeapons["Flowerwood Gun"] = { value = 110, remoteName = "FlowerwoodGun" }
+_G.allowedWeapons["Flowerwood"] = { value = 110, remoteName = "FlowerwoodKnife" }
+_G.allowedWeapons["Waves"] = { value = 210, remoteName = "Waves_K" }
+_G.allowedWeapons["Swirly Gun"] = { value = 190, remoteName = "SwirlyGun" }
+_G.allowedWeapons["Ocean"] = { value = 215, remoteName = "Ocean_G" }
 _G.allowedWeapons["Bat"] = { value = 250, remoteName = "Bat2023" }
 _G.allowedWeapons["Rainbow"] = { value = 325, remoteName = "Rainbow2023" }
 _G.allowedWeapons["Rainbow Gun"] = { value = 330, remoteName = "Rainbow_G_2023" }
@@ -134,11 +138,11 @@ _G.allowedWeapons["Chroma Gemstone"] = { value = 75, remoteName = "GemstoneChrom
 _G.allowedWeapons["Chroma Heat"] = { value = 75, remoteName = "HeatChroma" }
 _G.allowedWeapons["Chroma Luger"] = { value = 80, remoteName = "LugerChroma" }
 _G.allowedWeapons["Chroma Laser"] = { value = 85, remoteName = "LaserChroma" }
-_G.allowedWeapons["Chroma Lightbringer"] = { value = 90, remoteName = "LightbringerChroma" }
-_G.allowedWeapons["Chroma Darkbringer"] = { value = 95, remoteName = "DarkbringerChroma" }
+_G.allowedWeapons["Chroma Lightbringer"] = { value = 90, remoteName = "ChromaLightbringer" }
+_G.allowedWeapons["Chroma Darkbringer"] = { value = 95, remoteName = "ChromaDarkbringer" }
 _G.allowedWeapons["Chroma Cookiecane"] = { value = 100, remoteName = "CookiecaneChroma" }
 _G.allowedWeapons["Chroma Swirly Gun"] = { value = 105, remoteName = "SwirlyGunChroma" }
-_G.allowedWeapons["Chroma Candleflame"] = { value = 115, remoteName = "CandleFlameChroma" }
+_G.allowedWeapons["Chroma Candleflame"] = { value = 115, remoteName = "CandleflameChroma" }
 end
 
 if _G.Ancients == true then
